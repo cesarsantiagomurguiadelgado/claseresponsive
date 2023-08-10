@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    font-size: 20px;
+    margin: 13px 20px;
+}
+
+img{
+    width: 600px;
+}
+
+/*Se aplican los cambios cuando el ancho de la pantalla llega hasta 600px*/
+media(max-width:600px){
+    h1{
+        color: #17265d;
+    }
+    img{
+        width: 100%;
+    }
+}

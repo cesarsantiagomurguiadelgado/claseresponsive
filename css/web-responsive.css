@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header, footer {
+    background-color: #355ffa;
+    color: #FFFFFF;
+}
+
+header {
+    font-size: 20px;
+}
+
+main {
+    background-color: #f0f0f0;
+}
+
+main img {
+    width: 100%;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.box {
+    display: inline-block;
+    background-color: rebeccapurple;
+    margin-right: -4px;
+}
+
+/* Se aplican esto estilos cuando el ancho de la pantalla tiene hasta 600px */
+@media (max-width:600px){
+    header {
+        background-color: red;
+    }
+    .container, .col-50, .col-25  {
+        width: 100%;
+    }
+    .row-flex, .box {
+        display: block;
+    }
+    .box {
+        margin-right: 0;
+    }
+}
